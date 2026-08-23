@@ -67,8 +67,8 @@ npm run dev
 
 ## NOTE
 ```
-You will need mongoDB database storage either locally or on your computer to be able to signIn
-and save messages and chats
+You will need mongoDB database storage either local or remote to be able to signIn and
+save messages and chats
 ```
 
 ## Project Structure
