@@ -112,6 +112,12 @@ router.post("/verifyOtp", routeHandler(async (req, res) => {
   })
 }))
 
+router.delete("/signout", routeHandler(async (req, res) => {
+  res.clearCookie("access");
+  res.clearCookie("refresh");
+  return res.status(200).json({ success: true });
+}))
+
 router.post("/testing", routeHandler(async (req, res) => {
   return res.status(200).json({ success: true });
 }))

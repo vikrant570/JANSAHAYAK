@@ -1,11 +1,10 @@
 "use client";
 import { useState, useRef, useEffect, SetStateAction } from "react";
-import { LuMic, LuMicOff, LuArrowUp, LuPlus, LuAudioWaveform } from "react-icons/lu";
+import { LuMic, LuArrowUp, LuPlus, LuAudioWaveform } from "react-icons/lu";
 import { Msg } from "@/components/chatting/ChatInterface";
 import api from "@/lib/axiosInstance";
 import { handleAxiosError } from "@/utils/handleError";
 import { useToastMsgContext } from "@/contexts/ToastMsgContext";
-import { useRouter } from "next/navigation";
 import { Chat } from "./SideBar";
 
 interface Props {

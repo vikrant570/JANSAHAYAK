@@ -25,7 +25,7 @@ export default function LandingScreen({ setNewMessage, setCurrentChat, currentCh
                     />
                 </div>
                 <h1 className="text-xl md:text-4xl font-bold text-black">JANSAHAYAK</h1>
-                <p className="text-texts-secondary text-xs md:text-sm italic"> Feding India With Knowledge</p>
+                <p className="text-texts-dark/40 text-xs md:text-sm italic"> Feeding Every Indian With Knowledge</p>
             </div>
             <div className="relative group">
                 {/* Large Soft Fading Shadow Layer (Lighter Indigo & Higher Blur) */}
