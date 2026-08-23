@@ -988,5 +988,3352 @@
     },
     "documents_verified": false,
     "last_verified": ""
+  },
+  {
+    "id": "TKLq6JoBXu-iUKXqwEE-",
+    "name": "Farmer Pension Scheme",
+    "category": "Social welfare & Empowerment",
+    "categories": [
+      "Social welfare & Empowerment"
+    ],
+    "description": "The scheme aims to provide financial support to elderly farmers residing in the state of Uttarakhand. Under this scheme, a monthly pension of ₹1200/- is provided to farmers who are above 60 years of age, own up to 2 hectares of land, and cultivate their own land.",
+    "states": [
+      "Uttarakhand"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/kpy",
+    "source_name": "myScheme",
+    "authority": "Government of India",
+    "nodal_ministry": null,
+    "level": "State",
+    "tags": [
+      "Farmer",
+      "Pension",
+      "Kisan",
+      "Agriculture"
+    ],
+    "slug": "kpy",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "psbqF5gB0AGc0F0i8zcO",
+    "name": "COP-34 Financial Assistance to Farmer for Interest Subvention (Kishan Credit Card Interest Asst.)",
+    "category": "Agriculture,Rural & Environment",
+    "categories": [
+      "Agriculture,Rural & Environment"
+    ],
+    "description": "Under this scheme, financial assistance in the form of interest subvention is provided to farmers who repay their crop loans on time, helping them improve their agricultural productivity and economic well-being.",
+    "states": [
+      "Gujarat"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/fafiskc",
+    "source_name": "myScheme",
+    "authority": "Government of India",
+    "nodal_ministry": null,
+    "level": "State",
+    "tags": [
+      "Agriculture",
+      "Farmer",
+      "Interest Subvention"
+    ],
+    "slug": "fafiskc",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "C6ExGJgBXu-iUKXq7Xme",
+    "name": "Krishi Yantra",
+    "category": "Agriculture,Rural & Environment",
+    "categories": [
+      "Agriculture,Rural & Environment"
+    ],
+    "description": "In the Krishi Yantra scheme, the farmer purchases farming-related equipment from an authorized dealer, then the state government gives a subsidy to the farmers.",
+    "states": [
+      "Rajasthan"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/ky",
+    "source_name": "myScheme",
+    "authority": "Government of India",
+    "nodal_ministry": null,
+    "level": "State",
+    "tags": [
+      "Farming",
+      "Farmer",
+      "Equipment",
+      "Development"
+    ],
+    "slug": "ky",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "yaG0F5gBXu-iUKXqEHSv",
+    "name": "Rythu Bima Scheme",
+    "category": "Agriculture,Rural & Environment",
+    "categories": [
+      "Agriculture,Rural & Environment"
+    ],
+    "description": "Rythu Bandhu Farmer Group Life  Insurance Scheme for Farmers” is a life insurance scheme by the Government of Telangana that provides insurance coverage to the nominee of a farmer in case of the farmer’s death. It is free for farmers and is implemented through LIC.",
+    "states": [
+      "Telangana"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/rythu-bima",
+    "source_name": "myScheme",
+    "authority": "Government of India",
+    "nodal_ministry": null,
+    "level": "State",
+    "tags": [
+      "Farmer",
+      "Death Insurance",
+      "Life Insurance",
+      "Bima"
+    ],
+    "slug": "rythu-bima",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "4he_F5gB5uF80_MGhZFT",
+    "name": "Kharmore Sonchidia Award Scheme",
+    "category": "Agriculture,Rural & Environment",
+    "categories": [
+      "Agriculture,Rural & Environment"
+    ],
+    "description": "In the scheme \"Kharmore Sonchidia Award\" by the Forest Department, Government of Madhya Pradesh, the farmers are rewarded with ₹5,000/- if a Kharmor bird is sighted in the private land of the farmer and ₹10,000/- if a Golden bird is sighted in the private land of the farmer.",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/ksas",
+    "source_name": "myScheme",
+    "authority": "Government of India",
+    "nodal_ministry": null,
+    "level": "State",
+    "tags": [
+      "Award",
+      "Bird",
+      "Farmer",
+      "Financial Assistance"
+    ],
+    "slug": "ksas",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "BqHXF5gBXu-iUKXqyHgZ",
+    "name": "Plastic Mulching",
+    "category": "Agriculture,Rural & Environment",
+    "categories": [
+      "Agriculture,Rural & Environment"
+    ],
+    "description": "Under the Plastic Mulching scheme, the Rajasthan government provided subsidies to farmers. In this, the soil surface of the field is covered with plastic film. Farmer can also use crop residues for laying mulch.",
+    "states": [
+      "Rajasthan"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/pm",
+    "source_name": "myScheme",
+    "authority": "Government of India",
+    "nodal_ministry": null,
+    "level": "State",
+    "tags": [
+      "Farmer",
+      "Plastic Mulching",
+      "Farming",
+      "Agriculture"
+    ],
+    "slug": "pm",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "H6HQlZoBXu-iUKXqhbK6",
+    "name": "Mushroom Production",
+    "category": "Agriculture,Rural & Environment",
+    "categories": [
+      "Agriculture,Rural & Environment"
+    ],
+    "description": "The scheme aims to promote and support mushroom cultivation in the state by providing financial assistance and subsidies for establishing mushroom, compost, and spawn production units, thereby enhancing both farmer income and overall mushroom production in Uttarakhand.",
+    "states": [
+      "Uttarakhand"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/fsf",
+    "source_name": "myScheme",
+    "authority": "Government of India",
+    "nodal_ministry": null,
+    "level": "State",
+    "tags": [
+      "Mushroom",
+      "Subsidy",
+      "Farmer"
+    ],
+    "slug": "fsf",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "iKKMwpwBXu-iUKXqJEmd",
+    "name": "Construction of Water Storage Tanks for Drip Irrigation",
+    "category": "Agriculture,Rural & Environment",
+    "categories": [
+      "Agriculture,Rural & Environment"
+    ],
+    "description": "The scheme provides financial assistance to farmers across Gujarat for constructing water storage tanks to support drip irrigation, with cost-sharing benefits based on farmer category.",
+    "states": [
+      "Gujarat"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/cwsdi",
+    "source_name": "myScheme",
+    "authority": "Government of India",
+    "nodal_ministry": null,
+    "level": "State",
+    "tags": [
+      "Agriculture",
+      "Drip Irrigation",
+      "Farmer",
+      "Water Tank"
+    ],
+    "slug": "cwsdi",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "5Ma5F5gB0AGc0F0iSjQ-",
+    "name": "Bhausaheb Fundkar Falbag Lagvad Scheme",
+    "category": "Agriculture,Rural & Environment",
+    "categories": [
+      "Agriculture,Rural & Environment"
+    ],
+    "description": "This scheme includes, Plantation of sixteen perennial horticulture crops. Farmer from Konkan division can avail benefit of 0.10 Hector  to 10.00 Hector  and rest Of Maharashtra 0.20 Hector  to 6.00 Hector",
+    "states": [
+      "Maharashtra"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/bhausaheb-fundkar-horticulture-plantataion-scheme",
+    "source_name": "myScheme",
+    "authority": "Government of India",
+    "nodal_ministry": null,
+    "level": "State",
+    "tags": [
+      "Direct Benefit Transfer",
+      "Farmer",
+      "General",
+      "Horticulture",
+      "Plantation"
+    ],
+    "slug": "bhausaheb-fundkar-horticulture-plantataion-scheme",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "ORga2Z4B5uF80_MGIW9d",
+    "name": "Integrated Scheme for Export Promotion & Quality Improvement in Spices and Research and Development of Cardamom: Organic Farming: Organic Certification Groups",
+    "category": "Agriculture,Rural & Environment",
+    "categories": [
+      "Agriculture,Rural & Environment",
+      "Business & Entrepreneurship"
+    ],
+    "description": "Under this scheme to support farmer groups/FPOs in acquiring organic certification for the farm which is a prerequisite for marketing of organic spices.",
+    "states": [
+      "All"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/isfepqiisaradocofocg",
+    "source_name": "myScheme",
+    "authority": "Ministry Of Commerce And Industry",
+    "nodal_ministry": "Ministry Of Commerce And Industry",
+    "level": "Central",
+    "tags": [
+      "Farming",
+      "Organic Spices",
+      "Farmer",
+      "Organic",
+      "Farm"
+    ],
+    "slug": "isfepqiisaradocofocg",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "hhe5F5gB5uF80_MGSpA-",
+    "name": "State Agriculture Thesis Grant for M.Sc. Agriculture",
+    "category": "Education & Learning",
+    "categories": [
+      "Education & Learning"
+    ],
+    "description": "The scheme “State Agriculture Thesis Grant for M.Sc. Agriculture” was launched by the Department of Agriculture, Government of Nagaland to provide a Thesis Grant to all the inhabitants of Nagaland who passed the M.Sc. Agriculture programme.",
+    "states": [
+      "Nagaland"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/satgmsa",
+    "source_name": "myScheme",
+    "authority": "Government of India",
+    "nodal_ministry": null,
+    "level": "State",
+    "tags": [
+      "Agriculture",
+      "Thesis Grant",
+      "MSc",
+      "Student"
+    ],
+    "slug": "satgmsa",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "ghe5F5gB5uF80_MGSZDX",
+    "name": "State Agriculture Scholarship for B.Sc. & M.Sc. Agriculture",
+    "category": "Education & Learning",
+    "categories": [
+      "Education & Learning"
+    ],
+    "description": "The scheme “State Agriculture Scholarship for B.Sc. & M.Sc. Agriculture” was launched by the Department of Agriculture, Government of Nagaland to provide educational assistance to students who are undergoing undergraduate (B.Sc. Agriculture) and post-graduate programme (M.Sc. Agriculture).",
+    "states": [
+      "Nagaland"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/sasbma",
+    "source_name": "myScheme",
+    "authority": "Government of India",
+    "nodal_ministry": null,
+    "level": "State",
+    "tags": [
+      "Agriculture",
+      "Scholarship",
+      "BSc",
+      "MSc",
+      "Student"
+    ],
+    "slug": "sasbma",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "oBe5F5gB5uF80_MGUpCD",
+    "name": "Agriculture Academic Studies Scheme",
+    "category": "Education & Learning",
+    "categories": [
+      "Education & Learning"
+    ],
+    "description": "The objective of the Scheme is to sponsor students for undergoing 4 years of Graduate/degree courses in Agriculture/Horticulture against State quota seats in different Agriculture Universities in the country.",
+    "states": [
+      "Meghalaya"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/aass",
+    "source_name": "myScheme",
+    "authority": "Government of India",
+    "nodal_ministry": null,
+    "level": "State",
+    "tags": [
+      "Agriculture Universities",
+      "Academic",
+      "Student",
+      "Under Graduate",
+      "Horticulture",
+      "Sponsorship"
+    ],
+    "slug": "aass",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "L8Y9GJgB0AGc0F0iBTjn",
+    "name": "Use of Advanced Drone Technology (Agriculture Aircraft) in Agriculture Sector",
+    "category": "Agriculture,Rural & Environment",
+    "categories": [
+      "Agriculture,Rural & Environment"
+    ],
+    "description": "The scheme \"Use of Advanced Drone Technology (Agriculture Aircraft) in Agriculture Sector\" introduced by the Agriculture, Farmers Welfare and Cooperation Dept., Gujarat, aims to promote the use of advanced drone technology for spraying crop protection chemicals and bio-fertilizers, etc.",
+    "states": [
+      "Gujarat"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/uadtas",
+    "source_name": "myScheme",
+    "authority": "Government of India",
+    "nodal_ministry": null,
+    "level": "State",
+    "tags": [
+      "Agriculture",
+      "Farmer",
+      "Drone Technology",
+      "Crop Protection Chemicals",
+      "Fertilizers"
+    ],
+    "slug": "uadtas",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "DBe2F5gB5uF80_MGIJA4",
+    "name": "Sardar Patel Agriculture Research Award",
+    "category": "Agriculture,Rural & Environment",
+    "categories": [
+      "Agriculture,Rural & Environment"
+    ],
+    "description": "The scheme “Sardar Patel Agriculture Research Award” was launched by the Department of Agriculture, Farmers Welfare & Co-operation, Government of Gujarat on 30.10.1995.",
+    "states": [
+      "Gujarat"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/spara",
+    "source_name": "myScheme",
+    "authority": "Government of India",
+    "nodal_ministry": null,
+    "level": "State",
+    "tags": [
+      "Agriculture",
+      "Farmer",
+      "Research",
+      "Honour",
+      "Award"
+    ],
+    "slug": "spara",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "nsfOtJ0B0AGc0F0i7A3r",
+    "name": "Meghalaya Agriculture Response Vehicle Scheme",
+    "category": "Agriculture,Rural & Environment",
+    "categories": [
+      "Agriculture,Rural & Environment"
+    ],
+    "description": "The scheme “Meghalaya Agriculture Response Vehicle Scheme” was launched by the Department of Agriculture & Farmers’ Welfare, Government of Meghalaya to provide Small Commercial Vehicles and pickups at each CD Block across Meghalaya with 50% financial aid from the Government of Meghalaya.",
+    "states": [
+      "Meghalaya"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/marvs",
+    "source_name": "myScheme",
+    "authority": "Government of India",
+    "nodal_ministry": null,
+    "level": "State",
+    "tags": [
+      "Agriculture",
+      "Response Vehicle",
+      "Farmer",
+      "Financial Aid",
+      "Farmers Associations",
+      "Entrepreneur"
+    ],
+    "slug": "marvs",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "kxiR9pwB5uF80_MGNmL_",
+    "name": "National Agriculture Insurance Scheme",
+    "category": "Agriculture,Rural & Environment",
+    "categories": [
+      "Agriculture,Rural & Environment"
+    ],
+    "description": "The National Agriculture Insurance Scheme (NAIS) was introduced by the Government of India to provide comprehensive insurance coverage and financial support to farmers against crop losses due to natural calamities, pests, and diseases.",
+    "states": [
+      "All"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/nai",
+    "source_name": "myScheme",
+    "authority": "Ministry Of Agriculture and Farmers Welfare",
+    "nodal_ministry": "Ministry Of Agriculture and Farmers Welfare",
+    "level": "Central",
+    "tags": [
+      "Farmers",
+      "Crop Insurance",
+      "Agriculture Subsidy",
+      "Natural Disaster Coverage"
+    ],
+    "slug": "nai",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "m6Htb5gBXu-iUKXqRnki",
+    "name": "National Mission for Sustainable Agriculture - Reinforced Area Development",
+    "category": "Agriculture,Rural & Environment",
+    "categories": [
+      "Agriculture,Rural & Environment"
+    ],
+    "description": "The scheme \"National Mission for Sustainable Agriculture - Reinforced Area Development\" aims to promote sustainable agriculture through improved agronomic practices, efficient resource use, and integrated farming systems by providing financial support to all farmers.",
+    "states": [
+      "Gujarat"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/nmsa-radg",
+    "source_name": "myScheme",
+    "authority": "Government of India",
+    "nodal_ministry": null,
+    "level": "State",
+    "tags": [
+      "Agriculture",
+      "Soil Health",
+      "Crop Diversification",
+      "Integrated Farming"
+    ],
+    "slug": "nmsa-radg",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "rRgplZ0B5uF80_MGRGaV",
+    "name": "Primary Cooperative Agriculture and Rural Development Bank: For Minor Irrigation",
+    "category": "Banking,Financial Services and Insurance",
+    "categories": [
+      "Banking,Financial Services and Insurance"
+    ],
+    "description": "The scheme offers loans to farmers for minor irrigation projects, aiming to enhance water access for agriculture. Loan amounts range from ₹65,000/- to ₹1,20,000/- at an interest rate of 11% to 11.75%.",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/pcardmi",
+    "source_name": "myScheme",
+    "authority": "Government of India",
+    "nodal_ministry": null,
+    "level": "State",
+    "tags": [
+      "Irrigation",
+      "Agriculture",
+      "Loan",
+      "Farmer",
+      "Agriculture And Rural Development Bank"
+    ],
+    "slug": "pcardmi",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "gMZWJJoB0AGc0F0ifTnC",
+    "name": "Priyank Pathak Scholarship for B.Sc. Agriculture (4th Year) Students",
+    "category": "Education & Learning",
+    "categories": [
+      "Education & Learning"
+    ],
+    "description": "The scheme aims to provide financial assistance to meritorious students pursuing a B.Sc. in Agriculture who are in their fourth year of study, by awarding them a monthly scholarship of ₹ 800/- for one year.",
+    "states": [
+      "Uttarakhand"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/ppscholarshipuk",
+    "source_name": "myScheme",
+    "authority": "Government of India",
+    "nodal_ministry": null,
+    "level": "State",
+    "tags": [
+      "B Sc Agriculture",
+      "Scholarship",
+      "Student",
+      "Priyank Pathak"
+    ],
+    "slug": "ppscholarshipuk",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "uRj4r54B5uF80_MGDW7L",
+    "name": "Kisan Credit Card",
+    "category": "Agriculture,Rural & Environment",
+    "categories": [
+      "Agriculture,Rural & Environment"
+    ],
+    "description": "The Kisan Credit Card (KCC) scheme was introduced in 1998 for issue of Kisan Credit Cards to farmers on the basis of their holdings for uniform adoption by the banks so that farmers may use them to readily purchase agriculture inputs and draw cash for their production needs.",
+    "states": [
+      "All"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/kcc",
+    "source_name": "myScheme",
+    "authority": "Ministry Of Agriculture and Farmers Welfare",
+    "nodal_ministry": "Ministry Of Agriculture and Farmers Welfare",
+    "level": "Central",
+    "tags": [
+      "Kisan",
+      "Credit Card",
+      "Farmer",
+      "Farming",
+      "Banking"
+    ],
+    "slug": "kcc",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "rRf9F5gB5uF80_MGZZPn",
+    "name": "Mukhya Mantri Mahila Kisan Sashaktikaran Yojana",
+    "category": "Agriculture,Rural & Environment",
+    "categories": [
+      "Agriculture,Rural & Environment"
+    ],
+    "description": "Mukhya Mantri Mahila Kisan Sashaktikaran Yojana (MMKSY) is a scheme launched by the Government of Gujarat to empower women farmers in the state. The scheme was announced in the 2018-19 budget and is being implemented by the Department of Agriculture and Co-operation.",
+    "states": [
+      "Gujarat"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/mmksy",
+    "source_name": "myScheme",
+    "authority": "Government of India",
+    "nodal_ministry": null,
+    "level": "State",
+    "tags": [
+      "Mukhya Mantri",
+      "Mahila",
+      "Kisan",
+      "Sashaktikaran Yojana"
+    ],
+    "slug": "mmksy",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "b6FbJJoBXu-iUKXqH3r_",
+    "name": "Allotment of Shops in Kisan Bazaar",
+    "category": "Agriculture,Rural & Environment",
+    "categories": [
+      "Agriculture,Rural & Environment",
+      "Business & Entrepreneurship"
+    ],
+    "description": "The scheme aims to facilitate trade in products other than agricultural produce by providing commercial shops in Kisan Bazaars. The shops are allotted to eligible residents of Uttarakhand through public notices published in newspapers and displayed at public places.",
+    "states": [
+      "Uttarakhand"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/asfm",
+    "source_name": "myScheme",
+    "authority": "Government of India",
+    "nodal_ministry": null,
+    "level": "State",
+    "tags": [
+      "Farmer Market",
+      "Kisan Bazaar",
+      "Shop Allotment"
+    ],
+    "slug": "asfm",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "26H9F5gBXu-iUKXqtXjL",
+    "name": "Kisan Samriddhi Yojana - Chhattisgarh",
+    "category": "Agriculture,Rural & Environment",
+    "categories": [
+      "Agriculture,Rural & Environment"
+    ],
+    "description": "Chhattisgarh State Government started a scheme \"Kisan Samriddhi Yojana\" for farmer.",
+    "states": [
+      "Chhattisgarh"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/ksych",
+    "source_name": "myScheme",
+    "authority": "Government of India",
+    "nodal_ministry": null,
+    "level": "State",
+    "tags": [
+      "Financial Assistance",
+      "Farmers",
+      "Agriculture",
+      "Pump Installation"
+    ],
+    "slug": "ksych",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "28azF5gB0AGc0F0ikDM-",
+    "name": "Mukhyamantri Kisan Sahay Yojana",
+    "category": "Agriculture,Rural & Environment",
+    "categories": [
+      "Agriculture,Rural & Environment"
+    ],
+    "description": "The scheme was launched on September 6, 2019, to provide relief and support to farmers in case of crop damage due to natural calamities and was implemented by the Revenue Department of the Government of Gujarat in collaboration with the Agriculture and Co-operation Department.",
+    "states": [
+      "Gujarat"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/mksy",
+    "source_name": "myScheme",
+    "authority": "Government of India",
+    "nodal_ministry": null,
+    "level": "State",
+    "tags": [
+      "Kisan Sahay",
+      "Drought",
+      "Flood",
+      "Earthquake",
+      "Natural Calamities",
+      "Financial Assistance"
+    ],
+    "slug": "mksy",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "CMbXF5gB0AGc0F0izzcQ",
+    "name": "Kisan Kaleva Yojana",
+    "category": "Agriculture,Rural & Environment",
+    "categories": [
+      "Agriculture,Rural & Environment"
+    ],
+    "description": "Under the Kisan Kaleva Scheme run by the Rajasthan Government, food is provided at concessional rates through coupons to the farmers and their assistants who come to sell crops in the vegetable market premises.",
+    "states": [
+      "Rajasthan"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/kky",
+    "source_name": "myScheme",
+    "authority": "Government of India",
+    "nodal_ministry": null,
+    "level": "State",
+    "tags": [
+      "Food",
+      "Farmer",
+      "Agriculture"
+    ],
+    "slug": "kky",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "tMa9F5gB0AGc0F0i3TVT",
+    "name": "Kisan Suryoday Yojana (KSY)",
+    "category": "Utility & Sanitation",
+    "categories": [
+      "Utility & Sanitation",
+      "Agriculture,Rural & Environment"
+    ],
+    "description": "\"Kisan Suryoday Yojana (KSY)\" is a Gujarat government initiative launched in 2020-2021 to provide daytime electricity for agricultural activities, utilizing solar and non-conventional energy.",
+    "states": [
+      "Gujarat"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/ksyg",
+    "source_name": "myScheme",
+    "authority": "Government of India",
+    "nodal_ministry": null,
+    "level": "State",
+    "tags": [
+      "Agricultural",
+      "Electricity Supply",
+      "Farmer",
+      "Renewable Energy",
+      "Irrigation"
+    ],
+    "slug": "ksyg",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "XRe8F5gB5uF80_MGUpHa",
+    "name": "Mahila Kisan Yojana",
+    "category": "Business & Entrepreneurship",
+    "categories": [
+      "Business & Entrepreneurship"
+    ],
+    "description": "The scheme \"Mahila Kisan Yojana\" is an economic empowerment scheme by the Scheduled Castes Finance and Development Corporation, Government of Haryana. Through this scheme, loans are provided to the women from Scheduled Castes for the betterment of their economic status through self-employment.",
+    "states": [
+      "Haryana"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/mkyh",
+    "source_name": "myScheme",
+    "authority": "Government of India",
+    "nodal_ministry": null,
+    "level": "State",
+    "tags": [
+      "Women",
+      "Employment",
+      "Loan",
+      "Subsidy",
+      "Enterpreneur",
+      "Scheduled Caste"
+    ],
+    "slug": "mkyh",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "nxe9F5gB5uF80_MG35H3",
+    "name": "Kisan Samriddhi Yojana Jharkhand",
+    "category": "Agriculture,Rural & Environment",
+    "categories": [
+      "Agriculture,Rural & Environment"
+    ],
+    "description": "The \"Kisan Samriddhi Yojana\" by the Department of Agriculture, Animal Husbandry & Cooperative, Government of Jharkhand, promotes solar-powered irrigation systems to reduce agricultural costs and dependency on fossil fuels. Farmers receive up to 90% subsidy for solar units under this initiative.",
+    "states": [
+      "Jharkhand"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/ksyj",
+    "source_name": "myScheme",
+    "authority": "Government of India",
+    "nodal_ministry": null,
+    "level": "State",
+    "tags": [
+      "Farmers",
+      "Subsidy",
+      "Solar Units",
+      "Self-help Group"
+    ],
+    "slug": "ksyj",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "2Be1F5gB5uF80_MGnY8k",
+    "name": "Rajiv Gandhi Kisan Nyay Yojana",
+    "category": "Agriculture,Rural & Environment",
+    "categories": [
+      "Agriculture,Rural & Environment"
+    ],
+    "description": "Rajiv Gandhi Kisan Nyay Yojana is a scheme of the Government of Chhattisgarh for the farmers. This scheme was launched on 21 May 2020, on the death anniversary of Rajiv Gandhi.",
+    "states": [
+      "Chhattisgarh"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/rgkny",
+    "source_name": "myScheme",
+    "authority": "Government of India",
+    "nodal_ministry": null,
+    "level": "State",
+    "tags": [
+      "Agriculture",
+      "Farmers",
+      "Paddy",
+      "Maize"
+    ],
+    "slug": "rgkny",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "yKG5F5gBXu-iUKXqS3Xb",
+    "name": "Ramie Crop Scheme",
+    "category": "Agriculture,Rural & Environment",
+    "categories": [
+      "Agriculture,Rural & Environment"
+    ],
+    "description": "The objective of the scheme is to encourage cultivation of perennial and remunerative textile crop such as Ramie in suitable areas by providing necessary inputs and training.",
+    "states": [
+      "Meghalaya"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/rcs",
+    "source_name": "myScheme",
+    "authority": "Government of India",
+    "nodal_ministry": null,
+    "level": "State",
+    "tags": [
+      "Ramie Crop",
+      "Agriculture",
+      "Farmer",
+      "Cultivation",
+      "Textile Crop",
+      "Training"
+    ],
+    "slug": "rcs",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "bMZ7B5oB0AGc0F0iPTlp",
+    "name": "Registration for Crop Procurement",
+    "category": "Agriculture,Rural & Environment",
+    "categories": [
+      "Agriculture,Rural & Environment"
+    ],
+    "description": "The scheme aims to ensure fair crop prices for farmers by facilitating government procurement and provides easy online registration for landholding farmers to sell their crops at minimum support price.",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/rfcp",
+    "source_name": "myScheme",
+    "authority": "Government of India",
+    "nodal_ministry": null,
+    "level": "State",
+    "tags": [
+      "Farmer",
+      "Financial Assistance",
+      "Crop",
+      "Procurement",
+      "Grain"
+    ],
+    "slug": "rfcp",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "ahhKvZwB5uF80_MGhF_0",
+    "name": "Crop Input Subsidy to the Farmers for Crop Loss Due to Natural Calamities",
+    "category": "Agriculture,Rural & Environment",
+    "categories": [
+      "Agriculture,Rural & Environment"
+    ],
+    "description": "The scheme provides financial assistance to farmers in Gujarat who suffer crop losses due to natural calamities, based on crop damage surveys conducted by the district administration.",
+    "states": [
+      "Gujarat"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/cisfnc",
+    "source_name": "myScheme",
+    "authority": "Government of India",
+    "nodal_ministry": null,
+    "level": "State",
+    "tags": [
+      "Crop Loss",
+      "Natural Calamity",
+      "Disaster Compensation",
+      "Crop Damage Support"
+    ],
+    "slug": "cisfnc",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "aRdym5oB5uF80_MG8t8f",
+    "name": "Weather Based Crop Insurance Scheme",
+    "category": "Agriculture,Rural & Environment",
+    "categories": [
+      "Agriculture,Rural & Environment"
+    ],
+    "description": "The scheme aims to provide crop insurance protection to farmers against weather-related risks under the Pradhan Mantri Fasal Bima Yojana. It ensures financial support to farmers affected by adverse weather conditions.",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/wbcism",
+    "source_name": "myScheme",
+    "authority": "Government of India",
+    "nodal_ministry": null,
+    "level": "State",
+    "tags": [
+      "Crop Insurance",
+      "Weather Risk",
+      "Farmer"
+    ],
+    "slug": "wbcism",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "nMbCF5gB0AGc0F0ifDaD",
+    "name": "Intensive Fisheries Development Programme - Subsidy on Insurance Premium for Shrimp Crop Insurance",
+    "category": "Agriculture,Rural & Environment",
+    "categories": [
+      "Agriculture,Rural & Environment",
+      "Banking,Financial Services and Insurance"
+    ],
+    "description": "The scheme aims to promote sustainable aquaculture by reducing financial risk of shrimp farmers through subsidized insurance coverage.Under this scheme, a 50% subsidy is provided on insurance premium paid by eligible fish farmers for shrimp crop insurance, helping them mitigate potential crop losses",
+    "states": [
+      "Haryana"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/soipfsci",
+    "source_name": "myScheme",
+    "authority": "Government of India",
+    "nodal_ministry": null,
+    "level": "State",
+    "tags": [
+      "Subsidy",
+      "Farmer",
+      "Crop Insurance",
+      "Shrimp Crop",
+      "Insurance"
+    ],
+    "slug": "soipfsci",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "dRiBwpwB5uF80_MGrV-q",
+    "name": "Assistance Program for Expansion of Fruit Crop Cultivation",
+    "category": "Agriculture,Rural & Environment",
+    "categories": [
+      "Agriculture,Rural & Environment"
+    ],
+    "description": "The scheme provides financial assistance to farmers in Gujarat for expanding fruit crop cultivation like mango, banana, papaya, etc., through intensive and ultra-intensive farming methods.",
+    "states": [
+      "Gujarat"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/apfefcc",
+    "source_name": "myScheme",
+    "authority": "Government of India",
+    "nodal_ministry": null,
+    "level": "State",
+    "tags": [
+      "Agriculture",
+      "Fruit Crop",
+      "Horticulture",
+      "Intensive Farming"
+    ],
+    "slug": "apfefcc",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "Dca1F5gB0AGc0F0iJDR0",
+    "name": "Pradhan Mantri Krishi Sinchayee Yojana: Per Drop More Crop",
+    "category": "Agriculture,Rural & Environment",
+    "categories": [
+      "Agriculture,Rural & Environment"
+    ],
+    "description": "The scheme “Pradhan Mantri Krishi Sinchayee Yojana: Per Drop More Crop” was launched by the Dept. of Agriculture & Farmers Welfare, Ministry of Agriculture & Farmers Welfare, Govt. of India on 1st July 2015. The scheme mainly focuses on water use efficiency at farm level through Micro Irrigation.",
+    "states": [
+      "All"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/pmksypdmc",
+    "source_name": "myScheme",
+    "authority": "Ministry Of Agriculture and Farmers Welfare",
+    "nodal_ministry": "Ministry Of Agriculture and Farmers Welfare",
+    "level": "Central",
+    "tags": [
+      "Agriculture",
+      "Crop",
+      "Farmer",
+      "Irrigation",
+      "Water Harvesting",
+      "Water Management"
+    ],
+    "slug": "pmksypdmc",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "iRepTpoB5uF80_MGNJXF",
+    "name": "Agricultural Investment Grant (in Case of Crop Damage of 33% or More)",
+    "category": "Agriculture,Rural & Environment",
+    "categories": [
+      "Agriculture,Rural & Environment"
+    ],
+    "description": "The scheme aims to provide financial assistance to farmers who suffer crop losses of 33% or more due to natural calamities such as floods, heavy rainfall, drought, hailstorms, or other notified disasters.",
+    "states": [
+      "Uttarakhand"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/aiguk",
+    "source_name": "myScheme",
+    "authority": "Government of India",
+    "nodal_ministry": null,
+    "level": "State",
+    "tags": [
+      "Farmer",
+      "Agricultural",
+      "Crop Loss",
+      "Investment Subsidy",
+      "Crop Damage"
+    ],
+    "slug": "aiguk",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "isZsKZoB0AGc0F0iujlc",
+    "name": "Madhya Pradesh Fasal Vividhikaran (Crop Diversification) Encouragement Scheme",
+    "category": "Agriculture,Rural & Environment",
+    "categories": [
+      "Agriculture,Rural & Environment"
+    ],
+    "description": "The scheme aims to encourage crop diversification by providing necessary inputs to farmers who shift from growing wheat and paddy. Benefits are provided primarily to the implementing Company, Firm, or Institution to cover costs related to Human Resources and Marketing, benefiting farmers.",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/mpfvcdes",
+    "source_name": "myScheme",
+    "authority": "Government of India",
+    "nodal_ministry": null,
+    "level": "State",
+    "tags": [
+      "Farmer",
+      "Institution",
+      "Crop",
+      "Diversification",
+      "Marketing",
+      "Agriculture"
+    ],
+    "slug": "mpfvcdes",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "ysZjcZoB0AGc0F0iZjzn",
+    "name": "Compensation for Loss of Life and Property Caused by Wild Animals in and around Forest Areas: Assistance for Crop Losses Due to Wild Animal Attacks",
+    "category": "Agriculture,Rural & Environment",
+    "categories": [
+      "Agriculture,Rural & Environment"
+    ],
+    "description": "The scheme aims to provide financial assistance to farmers for crop losses caused by wild animals in forest areas and their surrounding regions, thereby mitigating economic losses and supporting farmers’ livelihoods.",
+    "states": [
+      "Uttarakhand"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/cllpwaafadcebnbds",
+    "source_name": "myScheme",
+    "authority": "Government of India",
+    "nodal_ministry": null,
+    "level": "State",
+    "tags": [
+      "Crop Losses",
+      "Wild Animal Attacks",
+      "Compensation For Crop Losses",
+      "Wild Animal",
+      "Farmer"
+    ],
+    "slug": "cllpwaafadcebnbds",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "-xf8lZoB5uF80_MGmMyO",
+    "name": "Drip Irrigation Sprinkler",
+    "category": "Agriculture,Rural & Environment",
+    "categories": [
+      "Agriculture,Rural & Environment"
+    ],
+    "description": "The scheme aims to promote efficient and sustainable irrigation for horticultural crops by providing farmers with modern irrigation systems and financial subsidies to enhance productivity and water conservation.",
+    "states": [
+      "Uttarakhand"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/dsuk",
+    "source_name": "myScheme",
+    "authority": "Government of India",
+    "nodal_ministry": null,
+    "level": "State",
+    "tags": [
+      "Farmer",
+      "Drip Sprinkler",
+      "Irrigation System",
+      "Drip Irrigation",
+      "Sprinkler"
+    ],
+    "slug": "dsuk",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "k8btb5gB0AGc0F0ijThw",
+    "name": "Assistance to Co-operative Irrigation Societies (Trible Area)",
+    "category": "Agriculture,Rural & Environment",
+    "categories": [
+      "Agriculture,Rural & Environment"
+    ],
+    "description": "The scheme \"Assistance to Co-operative Irrigation Societies (Tribal Area)\" aims to enhance agricultural productivity by financially supporting co-operative irrigation societies in tribal areas through the installation of water distribution infrastructure.",
+    "states": [
+      "Gujarat"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/atcista",
+    "source_name": "myScheme",
+    "authority": "Government of India",
+    "nodal_ministry": null,
+    "level": "State",
+    "tags": [
+      "Irrigation",
+      "Co-operative Irrigation Societies",
+      "Farm Productivity",
+      "Tribal Area Farmers"
+    ],
+    "slug": "atcista",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "xaGt25gBXu-iUKXq8Hmh",
+    "name": "National Mission on Edible Oil- Oil Palm: Drip Irrigation",
+    "category": "Agriculture,Rural & Environment",
+    "categories": [
+      "Agriculture,Rural & Environment"
+    ],
+    "description": "The scheme component \"Drip Irrigation\" launched under the \"National Mission on Edible Oil–Oil Palm\" scheme aims to increase the production of oil palm in Gujarat and reduce imports from abroad by providing drip irrigation facilities to farmers under subsidy norms.",
+    "states": [
+      "Gujarat"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/nmoedp",
+    "source_name": "myScheme",
+    "authority": "Government of India",
+    "nodal_ministry": null,
+    "level": "State",
+    "tags": [
+      "Edible Oil",
+      "Drip Irrigation",
+      "Subsidy",
+      "Farmer",
+      "Agriculture"
+    ],
+    "slug": "nmoedp",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "She3F5gB5uF80_MGsJDi",
+    "name": "Assistance for Installation of Sprinkler / Drip Micro Irrigation Systems",
+    "category": "Agriculture,Rural & Environment",
+    "categories": [
+      "Agriculture,Rural & Environment"
+    ],
+    "description": "Through this scheme, the Marginal Farmers, Small farmers, Scheduled Caste/ Schedule Tribe Farmers, Women Farmers, Big Farmers and Institutions are provided with a subsidy on the total cost or ₹ 25,000/‐ per hectare whichever is less for the installation of Sprinkler / Drip Micro Irrigation Systems.",
+    "states": [
+      "Puducherry"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/aispmis",
+    "source_name": "myScheme",
+    "authority": "Government of India",
+    "nodal_ministry": null,
+    "level": "State",
+    "tags": [
+      "Irrigation",
+      "Farmer",
+      "Agriculture",
+      "Subsidy",
+      "Crop"
+    ],
+    "slug": "aispmis",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "OBgZ2Z4B5uF80_MG7W_y",
+    "name": "Integrated Scheme for Export Promotion & Quality Improvement in Spices and Research and Development of Cardamom:  Small Cardamom Irrigation Land Development : Irrigation equipment (Nos.)",
+    "category": "Agriculture,Rural & Environment",
+    "categories": [
+      "Agriculture,Rural & Environment"
+    ],
+    "description": "The objective of the scheme is to encourage small cardamom growers to bring more area under irrigation and land development in order to increase productivity and improve the quality of small cardamom.",
+    "states": [
+      "Kerala",
+      "Karnataka",
+      "Tamil Nadu"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/isfepqiisaradocscildie",
+    "source_name": "myScheme",
+    "authority": "Ministry Of Commerce And Industry",
+    "nodal_ministry": "Ministry Of Commerce And Industry",
+    "level": "Central",
+    "tags": [
+      "Gravity Equipments",
+      "Irrigation Pump",
+      "Micro Sprinkler Sets",
+      "Farmer"
+    ],
+    "slug": "isfepqiisaradocscildie",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "jhiM2J0B5uF80_MGkmgF",
+    "name": "Large cardamom Irrigation Land Development : Irrigation equipment (nos)",
+    "category": "Agriculture,Rural & Environment",
+    "categories": [
+      "Agriculture,Rural & Environment"
+    ],
+    "description": "The scheme aims to motivate the growers to bring more area under irrigation by constructing water storage structures, rain water harvesting structures and installation of irrigation equipments for increasing the productivity and improving quality of large cardamom.",
+    "states": [
+      "All"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/lcildie",
+    "source_name": "myScheme",
+    "authority": "Ministry Of Commerce And Industry",
+    "nodal_ministry": "Ministry Of Commerce And Industry",
+    "level": "Central",
+    "tags": [
+      "Rain Water Harvesting",
+      "Land Holding",
+      "Agriculture",
+      "Farmer"
+    ],
+    "slug": "lcildie",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "GKHXF5gBXu-iUKXq3nj8",
+    "name": "Sinchai Pipeline Karyakram",
+    "category": "Agriculture,Rural & Environment",
+    "categories": [
+      "Agriculture,Rural & Environment"
+    ],
+    "description": "In \"Sinchai Pipeline Karyakram\" Rajasthan government will provide subsidies to farmers on purchasing irrigation pipelines. So that farmers can get rid of the problem of irrigation. And their income can increase.",
+    "states": [
+      "Rajasthan"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/spk",
+    "source_name": "myScheme",
+    "authority": "Government of India",
+    "nodal_ministry": null,
+    "level": "State",
+    "tags": [
+      "Pipe Line",
+      "Agriculture",
+      "Irrigation",
+      "Development"
+    ],
+    "slug": "spk",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "h6L4150BXu-iUKXqwVJ0",
+    "name": "Integrated Scheme for Export Promotion & Quality Improvement in Spices and Research and Development of Cardamom:Large cardamom Irrigation Land Development : Irrigation / water storage structures(nos)",
+    "category": "Agriculture,Rural & Environment",
+    "categories": [
+      "Agriculture,Rural & Environment"
+    ],
+    "description": "The scheme aims to motivate the growers to bring more area under irrigation by constructing water storage structures, rain water harvesting structures and installation of irrigation equipments for increasing the productivity and improving quality of large cardamom.",
+    "states": [
+      "All"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/isfepqiisar",
+    "source_name": "myScheme",
+    "authority": "Ministry Of Commerce And Industry",
+    "nodal_ministry": "Ministry Of Commerce And Industry",
+    "level": "Central",
+    "tags": [
+      "Agriculture",
+      "Farmer",
+      "Farming",
+      "Water Storage Structures",
+      "Subsidy"
+    ],
+    "slug": "isfepqiisar",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "I8fCJZ4B0AGc0F0isRFT",
+    "name": "Student Internship Programme",
+    "category": "Education & Learning",
+    "categories": [
+      "Education & Learning"
+    ],
+    "description": "The Student Internship Program, a unique learning opportunity aims to provide the Interns exposure to the functioning of the CAG of India and the Indian Audit & Accounts Department.",
+    "states": [
+      "All"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/sipocagi",
+    "source_name": "myScheme",
+    "authority": "Comptroller And Auditor General Of India",
+    "nodal_ministry": "Comptroller And Auditor General Of India",
+    "level": "Central",
+    "tags": [
+      "Internship",
+      "Student",
+      "Information Technology",
+      "Intern"
+    ],
+    "slug": "sipocagi",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "gRe1opgB5uF80_MGR5RU",
+    "name": "State Art Exhibition (Student Category)",
+    "category": "Social welfare & Empowerment",
+    "categories": [
+      "Social welfare & Empowerment",
+      "Education & Learning"
+    ],
+    "description": "The \"State Art Exhibition (Student Category)\" is an annual event organized by the Art, Culture and Museums Department, Government of Goa, to promote and encourage creativity in the visual arts field among local students.",
+    "states": [
+      "Goa"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/saesc",
+    "source_name": "myScheme",
+    "authority": "Government of India",
+    "nodal_ministry": null,
+    "level": "State",
+    "tags": [
+      "Student",
+      "Art Exhibition",
+      "Graphic Design",
+      "Financial Support",
+      "Prize"
+    ],
+    "slug": "saesc",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "-6G1F5gBXu-iUKXqK3SX",
+    "name": "Bihar Student Credit Card Scheme",
+    "category": "Education & Learning",
+    "categories": [
+      "Education & Learning",
+      "Social welfare & Empowerment"
+    ],
+    "description": "The Bihar Government launched the Bihar Student Credit Card (BSCC) scheme to provide financial aid to applicants to complete their higher education.",
+    "states": [
+      "Bihar"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/bsccs",
+    "source_name": "myScheme",
+    "authority": "Government of India",
+    "nodal_ministry": null,
+    "level": "State",
+    "tags": [
+      "Educational Loan",
+      "Student Empowerment",
+      "Financial Assistance",
+      "Higher Education"
+    ],
+    "slug": "bsccs",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "h8cKpp4B0AGc0F0i0RSu",
+    "name": "Student READY (Rural Entrepreneurship Awareness Development Yojana)",
+    "category": "Education & Learning",
+    "categories": [
+      "Education & Learning",
+      "Agriculture,Rural & Environment"
+    ],
+    "description": "The Student READY (Rural Entrepreneurship Awareness Development Yojana) program aims to provide rural entrepreneurship awareness, and practical experience in a real-life situation in rural agriculture, and create awareness to undergraduate students about practical agriculture and allied sciences.",
+    "states": [
+      "All"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/sr",
+    "source_name": "myScheme",
+    "authority": "Ministry Of Agriculture and Farmers Welfare",
+    "nodal_ministry": "Ministry Of Agriculture and Farmers Welfare",
+    "level": "Central",
+    "tags": [
+      "Student",
+      "Research And Education",
+      "Agriculture",
+      "Internship",
+      "Farmers"
+    ],
+    "slug": "sr",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "TKHBF5gBXu-iUKXqhncO",
+    "name": "Student Program Under AcSIR",
+    "category": "Education & Learning",
+    "categories": [
+      "Education & Learning"
+    ],
+    "description": "The scheme \"Student Program Under AcSIR\" implemented by the Academy of Scientific and Innovative Research (AcSIR), aims to promote high-quality research and leadership development in Earth Sciences through doctoral education. It provides research opportunities to geoscience postgraduate students.",
+    "states": [
+      "Uttarakhand"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/spuac",
+    "source_name": "myScheme",
+    "authority": "Government of India",
+    "nodal_ministry": null,
+    "level": "State",
+    "tags": [
+      "Education",
+      "Geoscience Research",
+      "PhD Program",
+      "Postgraduate",
+      "Himalayan Geology"
+    ],
+    "slug": "spuac",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "J6KK_J0BXu-iUKXqsFMW",
+    "name": "AICTE – Saksham Scholarship Scheme For Specially-Abled Student (Diploma)",
+    "category": "Education & Learning",
+    "categories": [
+      "Education & Learning",
+      "Social welfare & Empowerment"
+    ],
+    "description": "Saksham is a Scholarship Scheme by the Ministry of Education, implemented by AICTE, aimed at providing encouragement and support to specially-abled children to pursue technical education. This is an attempt to give every young specially-abled student the opportunity to study further.",
+    "states": [
+      "All"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/sak-dip",
+    "source_name": "myScheme",
+    "authority": "Ministry of Education",
+    "nodal_ministry": "Ministry of Education",
+    "level": "Central",
+    "tags": [
+      "Scholarship",
+      "PwD",
+      "Technical Education",
+      "Young Student"
+    ],
+    "slug": "sak-dip",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "KhhH_J0B5uF80_MGtWmK",
+    "name": "AICTE – Saksham Scholarship Scheme For Specially-Abled Student (Degree)",
+    "category": "Education & Learning",
+    "categories": [
+      "Education & Learning"
+    ],
+    "description": "Saksham is a Scholarship Scheme by the Ministry of Education, implemented by AICTE, aimed at providing encouragement and support to specially-abled children to pursue technical education. This is an attempt to give every young specially-abled student the opportunity to study further.",
+    "states": [
+      "All"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/sak-deg",
+    "source_name": "myScheme",
+    "authority": "Ministry of Education",
+    "nodal_ministry": "Ministry of Education",
+    "level": "Central",
+    "tags": [
+      "Scholarship",
+      "PwD",
+      "Technical Education",
+      "Young Student"
+    ],
+    "slug": "sak-deg",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "y6HVF5gBXu-iUKXqqHcr",
+    "name": "West Bengal Student Credit Card Scheme",
+    "category": "Education & Learning",
+    "categories": [
+      "Education & Learning"
+    ],
+    "description": "The Higher Education Department, Government of West Bengal has introduced the Student Credit Card Scheme for the students of West Bengal to enable them to pursue higher education without having any financial constraints.",
+    "states": [
+      "West Bengal"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/wbsccs",
+    "source_name": "myScheme",
+    "authority": "Government of India",
+    "nodal_ministry": null,
+    "level": "State",
+    "tags": [
+      "Financial Assistance",
+      "Education Loan",
+      "Higher Study"
+    ],
+    "slug": "wbsccs",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "JqHZF5gBXu-iUKXqU3hs",
+    "name": "Student Welfare Scheme",
+    "category": "Education & Learning",
+    "categories": [
+      "Education & Learning",
+      "Social welfare & Empowerment"
+    ],
+    "description": "The objective of the scheme is to provide assistance to economically weaker ST students to meet their emergency needs in special circumstances. Under this scheme, financial assistance is provided to ST students studying in Class 1 to 10 in cases of urgency or emergency.",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/sws",
+    "source_name": "myScheme",
+    "authority": "Government of India",
+    "nodal_ministry": null,
+    "level": "State",
+    "tags": [
+      "Student",
+      "Scheduled Tribe",
+      "Financial Assistance",
+      "Tricycle",
+      "Disease",
+      "Death"
+    ],
+    "slug": "sws",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "f8ZVJJoB0AGc0F0i5jnM",
+    "name": "Dr. A.N. Mukhopadhyay Needy Student Fund (B.Sc. Agriculture - Final Year Student)",
+    "category": "Education & Learning",
+    "categories": [
+      "Education & Learning"
+    ],
+    "description": "The scheme aims to provide financial assistance of ₹25,000/- per year to meritorious & needy students pursuing B.Sc. Agriculture course in their final year of study, based on their genuine financial need, thereby helping to reduce their economic burden & support the continuation of their education.",
+    "states": [
+      "Uttarakhand"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/mukhopadhyaystudentfunduk",
+    "source_name": "myScheme",
+    "authority": "Government of India",
+    "nodal_ministry": null,
+    "level": "State",
+    "tags": [
+      "Student",
+      "Needy Student",
+      "BSc Agriculture"
+    ],
+    "slug": "mukhopadhyaystudentfunduk",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "KsaLcZkB0AGc0F0iLTkO",
+    "name": "Margadeepam Scholarship",
+    "category": "Education & Learning",
+    "categories": [
+      "Education & Learning"
+    ],
+    "description": "The scheme aims to provide educational financial support to minority community students in Kerala. It offers ₹1,500/- annual scholarship to eligible students from Class 1st to Class 8th studying in government and government-aided schools.",
+    "states": [
+      "Kerala"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/msk",
+    "source_name": "myScheme",
+    "authority": "Government of India",
+    "nodal_ministry": null,
+    "level": "State",
+    "tags": [
+      "Minority",
+      "Student",
+      "Scholarship",
+      "School",
+      "Education"
+    ],
+    "slug": "msk",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "kMaRu5sB0AGc0F0i5v86",
+    "name": "State Horticulture Scholarship",
+    "category": "Education & Learning",
+    "categories": [
+      "Education & Learning"
+    ],
+    "description": "The “State Horticulture Scholarship” is a scholarship scheme, launched by the Department of Horticulture, Government of Nagaland to provide scholarship/stipend to students who are pursuing B.Sc. (Horticulture) M.Sc. (Horticulture) Ph.D. (Horticulture) courses.",
+    "states": [
+      "Nagaland"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/shs",
+    "source_name": "myScheme",
+    "authority": "Government of India",
+    "nodal_ministry": null,
+    "level": "State",
+    "tags": [
+      "Horticulture",
+      "Scholarship",
+      "BSc",
+      "MSc",
+      "PhD",
+      "Stipend",
+      "Student"
+    ],
+    "slug": "shs",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "laLQxZsBXu-iUKXqgETA",
+    "name": "Distance Education Scholarship–Scholarship For Disabled Students Pursuing Degree, PG Courses",
+    "category": "Education & Learning",
+    "categories": [
+      "Education & Learning"
+    ],
+    "description": "The scheme “Distance Education Scholarship–Scholarship for Disabled Students Pursuing Degree, PG Courses” was launched by the Department of Social Justice, Government of Kerala.",
+    "states": [
+      "Kerala"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/des-sdspdpgc",
+    "source_name": "myScheme",
+    "authority": "Government of India",
+    "nodal_ministry": null,
+    "level": "State",
+    "tags": [
+      "Distance Education",
+      "Scholarship",
+      "Student",
+      "Person With Disability",
+      "Degree",
+      "PG Courses",
+      "Open University"
+    ],
+    "slug": "des-sdspdpgc",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "4xe1F5gB5uF80_MGn48S",
+    "name": "Naunihal Scholarship Yojana",
+    "category": "Education & Learning",
+    "categories": [
+      "Education & Learning"
+    ],
+    "description": "Chhattisgarh Naunihal Scholarship Scheme has been started by the Government of Chhattisgarh in 2017.",
+    "states": [
+      "Chhattisgarh"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/nsych",
+    "source_name": "myScheme",
+    "authority": "Government of India",
+    "nodal_ministry": null,
+    "level": "State",
+    "tags": [
+      "Financial Assistance",
+      "Student Finance",
+      "Scholarship",
+      "Education"
+    ],
+    "slug": "nsych",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "2xe_F5gB5uF80_MGgpGY",
+    "name": "Divyangjan Scholarship Scheme",
+    "category": "Social welfare & Empowerment",
+    "categories": [
+      "Social welfare & Empowerment",
+      "Education & Learning",
+      "Health & Wellness"
+    ],
+    "description": "\"Divyangjan Scholarship Scheme\" provides financial assistance for the education and training of differently-abled children, who are regular students in a school or college. The application needs to be submitted to the District Office, Panchayat and Social Welfare / Janpad Panchayat Office.",
+    "states": [
+      "Chhattisgarh"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/dssmp",
+    "source_name": "myScheme",
+    "authority": "Government of India",
+    "nodal_ministry": null,
+    "level": "State",
+    "tags": [
+      "Education",
+      "Student",
+      "Disability",
+      "Scholarship",
+      "Financial Assistance"
+    ],
+    "slug": "dssmp",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "Ghh135sB5uF80_MGh1tU",
+    "name": "Combined Merit Scholarship",
+    "category": "Education & Learning",
+    "categories": [
+      "Education & Learning"
+    ],
+    "description": "The scheme aims to provide merit-based scholarship to students of Assam studying in first semester degree and master degree courses in recognized institutions. It benefits academically meritorious students who have obtained at least 60% marks in their last qualifying examination.",
+    "states": [
+      "Assam"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/cms-g",
+    "source_name": "myScheme",
+    "authority": "Government of India",
+    "nodal_ministry": null,
+    "level": "State",
+    "tags": [
+      "Student",
+      "Scholarship",
+      "Merit",
+      "Education",
+      "Degree",
+      "Academic"
+    ],
+    "slug": "cms-g",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "Csdb0ZwB0AGc0F0iPQbv",
+    "name": "Scholarship to Disabled Students",
+    "category": "Education & Learning",
+    "categories": [
+      "Education & Learning"
+    ],
+    "description": "The scheme \"Scholarship to Disabled Students\" by the Social Justice and Empowerment Department aims to provide financial assistance to students with disabilities. Through this scheme, annual scholarships are offered to support the education of eligible students from Class 1 onwards.",
+    "states": [
+      "Gujarat"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/stdsuk",
+    "source_name": "myScheme",
+    "authority": "Government of India",
+    "nodal_ministry": null,
+    "level": "State",
+    "tags": [
+      "Education",
+      "Scholarship",
+      "Persons With Disabilities"
+    ],
+    "slug": "stdsuk",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "nMaYu5sB0AGc0F0ix__4",
+    "name": "Sudakshya For Girls Child Scholarship",
+    "category": "Education & Learning",
+    "categories": [
+      "Education & Learning",
+      "Women and Child"
+    ],
+    "description": "This scholarship provides financial assistance to all deserving students who want to pursue higher studies.  Under this scholarship scheme, the students fulfilling the eligibility criteria will receive a maintenance allowance and other benefits.",
+    "states": [
+      "Odisha"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/sfgcs",
+    "source_name": "myScheme",
+    "authority": "Government of India",
+    "nodal_ministry": null,
+    "level": "State",
+    "tags": [
+      "Sudakshya",
+      "Girl",
+      "Scholarship",
+      "Student",
+      "ITI"
+    ],
+    "slug": "sfgcs",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "LKLA_J0BXu-iUKXqD1ML",
+    "name": "Begum Hazrat Mahal National Scholarship Program",
+    "category": "Education & Learning",
+    "categories": [
+      "Education & Learning"
+    ],
+    "description": "Begum Hazrat Mahal National scholarship is a scholarship scheme also known as Maulana Azad National scholarship scheme was first announced on 3rd May 2003. It is a national level scholarship started for the benefit of the girl’s student belonging to the minority communities.",
+    "states": [
+      "All"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/bhmnsp",
+    "source_name": "myScheme",
+    "authority": "Ministry Of Minority Affairs",
+    "nodal_ministry": "Ministry Of Minority Affairs",
+    "level": "Central",
+    "tags": [
+      "Scholarship",
+      "Student",
+      "Financial Assistance",
+      "Minority"
+    ],
+    "slug": "bhmnsp",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "BBeHYJkB5uF80_MG0JXb",
+    "name": "Chief Minister Scholarship Scheme",
+    "category": "Education & Learning",
+    "categories": [
+      "Education & Learning"
+    ],
+    "description": "The scheme \"Chief Minister Scholarship Scheme\" by the Education Department, Government of Gujarat, aims to provide financial assistance to meritorious students for pursuing medical, engineering, diploma, and higher education courses.",
+    "states": [
+      "Gujarat"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/cmssg",
+    "source_name": "myScheme",
+    "authority": "Government of India",
+    "nodal_ministry": null,
+    "level": "State",
+    "tags": [
+      "Scholarship",
+      "Higher Education",
+      "Diploma",
+      "Degree Scholarship",
+      "Medical Education Scholarship"
+    ],
+    "slug": "cmssg",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "L8a_F5gB0AGc0F0i8TZF",
+    "name": "Mukhyamantri Hunar Vikas Yojana- Higher Education/Technical Education",
+    "category": "Skills & Employment",
+    "categories": [
+      "Skills & Employment",
+      "Education & Learning"
+    ],
+    "description": "Under this scheme, the State Government provides financial assistance to eligible boys and girls enrolled under the Palanhar Scheme to pursue higher or technical education, based on their qualifications and interest in employment-oriented courses.",
+    "states": [
+      "Rajasthan"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/mhvs-hte",
+    "source_name": "myScheme",
+    "authority": "Government of India",
+    "nodal_ministry": null,
+    "level": "State",
+    "tags": [
+      "Higher Education",
+      "Technical Education",
+      "Career Opportunity",
+      "Student",
+      "Palanhar"
+    ],
+    "slug": "mhvs-hte",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "NqHAF5gBXu-iUKXqcXcW",
+    "name": "Foreign Education Scheme",
+    "category": "Education & Learning",
+    "categories": [
+      "Education & Learning",
+      "Social welfare & Empowerment"
+    ],
+    "description": "The \"Foreign Education Scheme\" provides financial assistance for non-reserved category students pursuing higher education abroad after Standard 12.",
+    "states": [
+      "Gujarat"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/fesg",
+    "source_name": "myScheme",
+    "authority": "Government of India",
+    "nodal_ministry": null,
+    "level": "State",
+    "tags": [
+      "Foreign Study Loan",
+      "Higher Education",
+      "Student"
+    ],
+    "slug": "fesg",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "GaG9W5kBXu-iUKXq8XqY",
+    "name": "Vocational Education Programme",
+    "category": "Education & Learning",
+    "categories": [
+      "Education & Learning",
+      "Skills & Employment"
+    ],
+    "description": "The scheme aims to impart vocational education alongside academic learning to students of classes 9 to 12 in selected government secondary schools. Vocational education is offered in 08 sectors approved by the Government of India under the NSQF framework.",
+    "states": [
+      "Uttarakhand"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/vep",
+    "source_name": "myScheme",
+    "authority": "Government of India",
+    "nodal_ministry": null,
+    "level": "State",
+    "tags": [
+      "Vocational Education",
+      "Skill Development",
+      "Training",
+      "Student",
+      "Government Secondary Schools"
+    ],
+    "slug": "vep",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "Khh635sB5uF80_MGfltj",
+    "name": "Assam Abhinandan Education Loan Subsidy Scheme",
+    "category": "Banking,Financial Services and Insurance",
+    "categories": [
+      "Banking,Financial Services and Insurance"
+    ],
+    "description": "\"Assam Abhinandan Education Loan Subsidy Scheme\" was launched on 26 December 2019 by the Hon'ble Chief Minister of Assam. The scheme is managed by the Finance Department, Govt. of Assam. The govt. will provide a loan subsidy of up to ₹ 50,000 on education loans to students pursuing higher education.",
+    "states": [
+      "Assam"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/aaelss",
+    "source_name": "myScheme",
+    "authority": "Government of India",
+    "nodal_ministry": null,
+    "level": "State",
+    "tags": [
+      "Education",
+      "Loan",
+      "Student"
+    ],
+    "slug": "aaelss",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "yhe-F5gB5uF80_MGYpGh",
+    "name": "Academic Education (JKBOCWWB)",
+    "category": "Education & Learning",
+    "categories": [
+      "Education & Learning"
+    ],
+    "description": "The \"Academic Education\" scheme by the JKBOCW Welfare Board, Labour Department, Jammu & Kashmir, provides financial assistance to regular students from Class 9th to Post-Graduation.",
+    "states": [
+      "Jammu and Kashmir"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/aejkbocwwb",
+    "source_name": "myScheme",
+    "authority": "Government of India",
+    "nodal_ministry": null,
+    "level": "State",
+    "tags": [
+      "Worker",
+      "Construction",
+      "Labour",
+      "Student",
+      "Education"
+    ],
+    "slug": "aejkbocwwb",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "7Meh25wB0AGc0F0iJAYZ",
+    "name": "Interest Subsidy Scheme on Education Loan",
+    "category": "Education & Learning",
+    "categories": [
+      "Education & Learning"
+    ],
+    "description": "The scheme \"Interest Subsidy Scheme on Education Loan\" by the Education Department, Gujarat, aims to provide financial support to students by offering 100% interest subsidy on education loans.",
+    "states": [
+      "Gujarat"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/issoel",
+    "source_name": "myScheme",
+    "authority": "Government of India",
+    "nodal_ministry": null,
+    "level": "State",
+    "tags": [
+      "Education Loan",
+      "Higher Education",
+      "Interest Subsidy",
+      "Abroad Study"
+    ],
+    "slug": "issoel",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "0KG-F5gBXu-iUKXqYnar",
+    "name": "Professional Education (PEJKBOCWWB)",
+    "category": "Education & Learning",
+    "categories": [
+      "Education & Learning"
+    ],
+    "description": "The \"Professional Education\" scheme by the JKBOCW Welfare Board, Jammu & Kashmir, provides financial assistance to regular students pursuing Para Medical, ITI, Engineering, and other recognized diploma or professional/technical degree courses.",
+    "states": [
+      "Jammu and Kashmir"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/pfjkbocwwb",
+    "source_name": "myScheme",
+    "authority": "Government of India",
+    "nodal_ministry": null,
+    "level": "State",
+    "tags": [
+      "Worker",
+      "Construction",
+      "Labour",
+      "Student",
+      "Education"
+    ],
+    "slug": "pfjkbocwwb",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "2KG-F5gBXu-iUKXqZXYb",
+    "name": "Schooling Education (JKBOCWWB)",
+    "category": "Education & Learning",
+    "categories": [
+      "Education & Learning"
+    ],
+    "description": "The scheme \"Schooling Education\" by the Building and Other Construction Workers Welfare Board, Labour Dept., J&K, provides financial assistance for the education of children of registered construction workers, from Class Nursery/1st to 5th, and from Class 6th to 8th.",
+    "states": [
+      "Jammu and Kashmir"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/sejkbocwwb",
+    "source_name": "myScheme",
+    "authority": "Government of India",
+    "nodal_ministry": null,
+    "level": "State",
+    "tags": [
+      "Worker",
+      "Construction",
+      "Education",
+      "Financial Assistance",
+      "Children",
+      "Student"
+    ],
+    "slug": "sejkbocwwb",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "6xfXF5gB5uF80_MGQZJu",
+    "name": "Financial Assistance for Education (GBOCWWB)",
+    "category": "Education & Learning",
+    "categories": [
+      "Education & Learning"
+    ],
+    "description": "Through the \"Financial Assistance for Education (GBOCWWB)\" scheme, the worker registered with the Board is provided with financial assistance, as determined by the Board, for the education of their children. The applications are accepted offline.",
+    "states": [
+      "Goa"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/fae-gbocwwb",
+    "source_name": "myScheme",
+    "authority": "Government of India",
+    "nodal_ministry": null,
+    "level": "State",
+    "tags": [
+      "Student",
+      "Education",
+      "Financial Assistance",
+      "Labour",
+      "Worker"
+    ],
+    "slug": "fae-gbocwwb",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "AaEAPZkBXu-iUKXqx3rH",
+    "name": "Son/Daughter Education Assistance (UKBOCWWB)",
+    "category": "Education & Learning",
+    "categories": [
+      "Education & Learning"
+    ],
+    "description": "The scheme provides financial assistance to the children of registered building and construction workers pursuing education from Class I up to higher education or professional courses.",
+    "states": [
+      "Uttarakhand"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/easukbocwwb",
+    "source_name": "myScheme",
+    "authority": "Government of India",
+    "nodal_ministry": null,
+    "level": "State",
+    "tags": [
+      "Education Assistance",
+      "Construction Worker",
+      "Building Worker",
+      "Labour",
+      "Student",
+      "Scholarship"
+    ],
+    "slug": "easukbocwwb",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "B8a5F5gB0AGc0F0iwzWy",
+    "name": "Scheme for Small Business Owners of Scheduled Castes to Buy a Place of Business/Shop",
+    "category": "Banking,Financial Services and Insurance",
+    "categories": [
+      "Banking,Financial Services and Insurance",
+      "Business & Entrepreneurship"
+    ],
+    "description": "Under the scheme, financial assistance in the form of loans and subsidies is provided by banks to individuals belonging to the Scheduled Castes category. This assistance is aimed at enabling them to purchase business premises or shops in urban areas for business development.",
+    "states": [
+      "Gujarat"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/ssboscbpbs",
+    "source_name": "myScheme",
+    "authority": "Government of India",
+    "nodal_ministry": null,
+    "level": "State",
+    "tags": [
+      "Scheduled Caste",
+      "Business Development",
+      "Shop",
+      "Business Premise",
+      "Loan",
+      "Subsidy"
+    ],
+    "slug": "ssboscbpbs",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
+  },
+  {
+    "id": "zBfMbJoB5uF80_MGS5dq",
+    "name": "Rural Business Incubators - Uttarakhand",
+    "category": "Business & Entrepreneurship",
+    "categories": [
+      "Business & Entrepreneurship"
+    ],
+    "description": "The scheme aims to promote entrepreneurship and develop a robust entrepreneurial ecosystem in the state by providing aspiring and existing entrepreneurs with technical, business, legal, marketing, and mentorship support.",
+    "states": [
+      "Uttarakhand"
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/rbisuk",
+    "source_name": "myScheme",
+    "authority": "Government of India",
+    "nodal_ministry": null,
+    "level": "State",
+    "tags": [
+      "Entrepreneur",
+      "Rural Business",
+      "Self Employment",
+      "Self Help Groups",
+      "Incubator"
+    ],
+    "slug": "rbisuk",
+    "scheme_close_date": null,
+    "verification_status": "verified",
+    "confidence": 0.95,
+    "target_users": [],
+    "benefits": [],
+    "documents": [],
+    "application_steps": [],
+    "eligibility": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "occupation": [],
+      "education": [],
+      "other_conditions": []
+    },
+    "documents_verified": false,
+    "last_verified": ""
   }
 ]

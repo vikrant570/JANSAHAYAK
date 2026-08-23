@@ -1,7 +1,14 @@
+import re
+
+
 class ResponseFormatter:
     """
     Converts JanSahayak recommendation results
-    into a short Markdown response for the frontend.
+    into a clean, concise, meaningful Markdown response
+    for the frontend.
+
+    The formatter avoids cutting descriptions or explanations
+    in the middle of a sentence.
     """
 
     def format_recommendations(
@@ -9,6 +16,10 @@ class ResponseFormatter:
         query: str,
         results: list[dict]
     ) -> str:
+
+        # =====================================================
+        # NO RESULTS
+        # =====================================================
 
         if not results:
             return (
@@ -30,6 +41,10 @@ class ResponseFormatter:
         )
 
         lines.append("")
+
+        # =====================================================
+        # EACH RECOMMENDATION
+        # =====================================================
 
         for index, result in enumerate(results, start=1):
 
@@ -55,17 +70,20 @@ class ResponseFormatter:
             lines.append("")
 
             # =================================================
-            # SHORT DESCRIPTION
+            # DESCRIPTION
             # =================================================
 
+            raw_description = (
+                scheme.get("description", "")
+                or ""
+            )
+
             description = self._short_description(
-                scheme.get(
-                    "description",
-                    ""
-                )
+                raw_description
             )
 
             if description:
+
                 lines.append(description)
                 lines.append("")
 
@@ -99,6 +117,7 @@ class ResponseFormatter:
             )
 
             if score_percent is not None:
+
                 lines.append(
                     f"**Match Score:** {score_percent}%"
                 )
@@ -110,11 +129,13 @@ class ResponseFormatter:
             # =================================================
 
             short_reason = self._short_reason(
-                explanation,
-                description
+                explanation=explanation,
+                description=raw_description,
+                scheme_name=name
             )
 
             if short_reason:
+
                 lines.append(
                     f"**Why it may help:** {short_reason}"
                 )
@@ -153,10 +174,13 @@ class ResponseFormatter:
                     for document in required[:5]:
 
                         if document in missing:
+
                             lines.append(
                                 f"- ⚠️ {document}"
                             )
+
                         else:
+
                             lines.append(
                                 f"- ✅ {document}"
                             )
@@ -191,13 +215,17 @@ class ResponseFormatter:
 
                 lines.append("")
 
+            # =================================================
+            # DIVIDER
+            # =================================================
+
             if index < len(results):
 
                 lines.append("---")
                 lines.append("")
 
         # =====================================================
-        # ONE COMMON DISCLAIMER
+        # COMMON DISCLAIMER
         # =====================================================
 
         lines.append(
@@ -209,37 +237,165 @@ class ResponseFormatter:
         return "\n".join(lines)
 
     # =========================================================
+    # TEXT CLEANING
+    # =========================================================
+
+    @staticmethod
+    def _clean_text(text: str) -> str:
+        """
+        Remove unnecessary line breaks and extra spaces.
+        """
+
+        if not text:
+            return ""
+
+        text = str(text)
+
+        text = text.replace(
+            "\n",
+            " "
+        )
+
+        text = " ".join(
+            text.split()
+        )
+
+        return text.strip()
+
+    # =========================================================
+    # COMPLETE SENTENCE EXTRACTION
+    # =========================================================
+
+    @staticmethod
+    def _complete_sentence_excerpt(
+        text: str,
+        preferred_length: int = 240,
+        max_sentences: int = 2
+    ) -> str:
+        """
+        Returns complete sentences instead of cutting text
+        at an arbitrary character position.
+
+        If the first sentence itself is long, it is kept complete
+        rather than being cut midway.
+        """
+
+        if not text:
+            return ""
+
+        text = ResponseFormatter._clean_text(
+            text
+        )
+
+        if not text:
+            return ""
+
+        # Split text into sentences.
+        sentences = re.split(
+            r"(?<=[.!?])\s+",
+            text
+        )
+
+        sentences = [
+            sentence.strip()
+            for sentence in sentences
+            if sentence.strip()
+        ]
+
+        if not sentences:
+            return text
+
+        selected = []
+        current_length = 0
+
+        for sentence in sentences:
+
+            # Add punctuation when source text has no ending punctuation
+            if sentence[-1] not in ".!?":
+                sentence = sentence + "."
+
+            candidate_length = (
+                current_length
+                + len(sentence)
+                + 1
+            )
+
+            # Always allow the first complete sentence.
+            if not selected:
+
+                selected.append(
+                    sentence
+                )
+
+                current_length = len(
+                    sentence
+                )
+
+                continue
+
+            # Maximum number of sentences reached.
+            if len(selected) >= max_sentences:
+                break
+
+            # Add another sentence only when it remains concise.
+            if candidate_length <= preferred_length:
+
+                selected.append(
+                    sentence
+                )
+
+                current_length = (
+                    candidate_length
+                )
+
+            else:
+                break
+
+        return " ".join(
+            selected
+        ).strip()
+
+    # =========================================================
     # SHORT DESCRIPTION
     # =========================================================
 
     @staticmethod
     def _short_description(
         description: str,
-        max_length: int = 180
+        max_length: int = 240
     ) -> str:
+        """
+        Keep one or two meaningful complete sentences.
+
+        Unlike character slicing, this method will not produce
+        descriptions such as:
+
+        'The scheme provides financial support for...'
+
+        Instead, it ends after a complete thought.
+        """
 
         if not description:
             return ""
 
         description = (
-            str(description)
-            .replace("\n", " ")
-            .strip()
+            ResponseFormatter
+            ._clean_text(
+                description
+            )
         )
 
-        description = " ".join(
-            description.split()
+        if not description:
+            return ""
+
+        return (
+            ResponseFormatter
+            ._complete_sentence_excerpt(
+                text=description,
+                preferred_length=max_length,
+                max_sentences=2
+            )
         )
-
-        if len(description) <= max_length:
-            return description
-
-        shortened = (
-            description[:max_length]
-            .rsplit(" ", 1)[0]
-        )
-
-        return shortened + "..."
 
     # =========================================================
     # SHORT REASON
@@ -248,23 +404,35 @@ class ResponseFormatter:
     @staticmethod
     def _short_reason(
         explanation: str,
-        description: str
+        description: str,
+        scheme_name: str = ""
     ) -> str:
+        """
+        Produces a short and meaningful explanation.
 
-        if not explanation:
-            return ""
+        Generic recommendation sentences are improved using
+        the official scheme description without cutting
+        sentences midway.
+        """
 
         explanation = (
-            str(explanation)
-            .replace("\n", " ")
-            .strip()
+            ResponseFormatter
+            ._clean_text(
+                explanation
+            )
         )
 
-        explanation = " ".join(
-            explanation.split()
+        description = (
+            ResponseFormatter
+            ._clean_text(
+                description
+            )
         )
 
-        # Remove repeated generic sentences
+        # =====================================================
+        # REMOVE REPETITIVE DISCLAIMERS
+        # =====================================================
+
         unwanted_phrases = [
             (
                 "Eligibility could not be fully determined "
@@ -275,91 +443,138 @@ class ResponseFormatter:
                 "application requirements on the official "
                 "government source."
             ),
+            (
+                "Eligibility and exact document requirements "
+                "should be confirmed on the official government "
+                "scheme portal before applying."
+            ),
+            (
+                "Please verify eligibility on the official website."
+            ),
         ]
 
         for phrase in unwanted_phrases:
+
             explanation = explanation.replace(
                 phrase,
                 ""
             )
 
-        # Remove repeated official description section
-        marker = "Official description:"
-
-        lower_explanation = (
-            explanation.lower()
-        )
-
-        marker_position = (
-            lower_explanation.find(
-                marker.lower()
+        explanation = (
+            ResponseFormatter
+            ._clean_text(
+                explanation
             )
         )
 
+        # =====================================================
+        # REMOVE "OFFICIAL DESCRIPTION:" DUPLICATION
+        # =====================================================
+
+        marker = "official description:"
+
+        marker_position = (
+            explanation
+            .lower()
+            .find(marker)
+        )
+
         if marker_position != -1:
+
             explanation = explanation[
                 :marker_position
             ]
 
-        explanation = explanation.strip(
-            " ."
+        explanation = (
+            explanation
+            .strip(
+                " .:-"
+            )
         )
 
         # =====================================================
-        # IMPROVE GENERIC EXPLANATIONS
+        # CHECK FOR GENERIC EXPLANATION
         # =====================================================
 
         generic_phrases = [
             "may be relevant to your request",
             "may be relevant based on your request",
             "may match your request",
+            "may be useful for your request",
+            "may be suitable for your request",
         ]
 
-        is_generic = any(
-            phrase in explanation.lower()
-            for phrase in generic_phrases
+        is_generic = (
+            not explanation
+            or any(
+                phrase
+                in explanation.lower()
+                for phrase
+                in generic_phrases
+            )
         )
+
+        # =====================================================
+        # GENERIC EXPLANATION + DESCRIPTION
+        # =====================================================
 
         if is_generic and description:
 
-            clean_description = (
-                str(description)
-                .replace("\n", " ")
-                .strip()
+            meaningful_description = (
+                ResponseFormatter
+                ._complete_sentence_excerpt(
+                    text=description,
+                    preferred_length=230,
+                    max_sentences=1
+                )
             )
 
-            clean_description = " ".join(
-                clean_description.split()
-            )
+            if meaningful_description:
 
-            if len(clean_description) > 150:
+                if scheme_name:
 
-                clean_description = (
-                    clean_description[:150]
-                    .rsplit(" ", 1)[0]
-                    + "..."
+                    return (
+                        f"{scheme_name} may be relevant to your needs. "
+                        f"The official description indicates that "
+                        f"{meaningful_description}"
+                    )
+
+                return (
+                    "This scheme may be relevant to your needs. "
+                    "The official description indicates that "
+                    f"{meaningful_description}"
                 )
 
-            explanation = explanation.rstrip(
-                "."
-            )
+        # =====================================================
+        # MEANINGFUL EXISTING EXPLANATION
+        # =====================================================
+
+        if explanation:
 
             return (
-                f"{explanation}. "
-                f"This scheme provides support related to "
-                f"{clean_description}"
+                ResponseFormatter
+                ._complete_sentence_excerpt(
+                    text=explanation,
+                    preferred_length=300,
+                    max_sentences=2
+                )
             )
 
-        # Allow around 1-2 lines of explanation
-        if len(explanation) > 260:
+        # =====================================================
+        # FINAL SAFE FALLBACK
+        # =====================================================
 
-            explanation = (
-                explanation[:260]
-                .rsplit(" ", 1)[0]
-                + "..."
+        if scheme_name:
+
+            return (
+                f"{scheme_name} may be relevant based on "
+                "the information provided in your request."
             )
 
-        return explanation
+        return (
+            "This scheme may be relevant based on "
+            "the information provided in your request."
+        )
 
     # =========================================================
     # SCORE TO PERCENTAGE
@@ -371,12 +586,24 @@ class ResponseFormatter:
     ):
 
         try:
-            value = float(score)
 
-        except (TypeError, ValueError):
+            value = float(
+                score
+            )
+
+        except (
+            TypeError,
+            ValueError
+        ):
+
             return None
 
         if 0 <= value <= 1:
-            value = value * 100
 
-        return round(value)
+            value = (
+                value * 100
+            )
+
+        return round(
+            value
+        )

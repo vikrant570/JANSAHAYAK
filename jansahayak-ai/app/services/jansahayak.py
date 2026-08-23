@@ -2,6 +2,7 @@ from typing import Any
 
 from app.services.analyzer import JanSahayakAnalyzer
 from app.services.document_checklist import DocumentChecklist
+from app.services.relevance_filter import SchemeRelevanceFilter
 
 
 class JanSahayak:
@@ -12,11 +13,12 @@ class JanSahayak:
     ----------------------------------------------------------
     1. Receive citizen query
     2. Send query/profile to JanSahayakAnalyzer
-    3. Receive ranked schemes
-    4. Run document checklist for every scheme
-    5. Return frontend-friendly recommendation results
+    3. Receive ranked scheme candidates
+    4. Improve domain relevance
+    5. Run document checklist for every relevant scheme
+    6. Return frontend-friendly recommendation results
 
-    The existing Analyzer continues handling:
+    Existing Analyzer continues handling:
     - RAG retrieval
     - eligibility
     - recommendation ranking
@@ -25,15 +27,28 @@ class JanSahayak:
     This class adds:
     - verified document information
     - user's missing document information
+    - domain relevance filtering
     """
 
     def __init__(self):
 
-        # Existing main AI analyzer
+        # =====================================================
+        # EXISTING MAIN AI ANALYZER
+        # =====================================================
+
         self.analyzer = JanSahayakAnalyzer()
 
-        # Document feature
+        # =====================================================
+        # EXISTING DOCUMENT FEATURE
+        # =====================================================
+
         self.document_checklist = DocumentChecklist()
+
+        # =====================================================
+        # NEW RELEVANCE FILTER
+        # =====================================================
+
+        self.relevance_filter = SchemeRelevanceFilter()
 
     # =========================================================
     # FIND SCHEMES
@@ -65,7 +80,6 @@ class JanSahayak:
                 "state": "Punjab",
                 "occupation": "farmer",
                 "income": 250000,
-
                 "documents": [
                     "Aadhaar Card",
                     "Bank Passbook"
@@ -73,7 +87,12 @@ class JanSahayak:
             }
 
         top_k:
-            Number of scheme recommendations.
+            Number of final scheme recommendations.
+
+            Important:
+            Internally JanSahayak retrieves more candidates
+            than top_k so that irrelevant FAISS results can
+            be removed before returning the best schemes.
 
         user:
             Backward-compatible alias for profile.
@@ -115,8 +134,59 @@ class JanSahayak:
         ).strip()
 
         if not query:
-
             return []
+
+        # -----------------------------------------------------
+        # SAFE TOP_K
+        # -----------------------------------------------------
+
+        try:
+            top_k = int(top_k)
+
+        except (
+            TypeError,
+            ValueError
+        ):
+            top_k = 5
+
+        top_k = max(
+            1,
+            top_k
+        )
+
+        # =====================================================
+        # NEW: RETRIEVE MORE CANDIDATES
+        # =====================================================
+        #
+        # Previously:
+        #
+        #     frontend asks for 3
+        #           ↓
+        #     analyzer returns only 3
+        #
+        # If those 3 contained:
+        # - accident insurance
+        # - scholarship
+        # - unrelated women scheme
+        #
+        # then there was no agriculture scheme available
+        # for us to choose.
+        #
+        # Now:
+        #
+        #     frontend asks for 3
+        #           ↓
+        #     analyzer retrieves about 15
+        #           ↓
+        #     relevance filter removes poor matches
+        #           ↓
+        #     best 3 returned
+        #
+
+        candidate_k = max(
+            top_k * 10,
+            30
+        )
 
         # -----------------------------------------------------
         # CALL EXISTING ANALYZER
@@ -125,7 +195,7 @@ class JanSahayak:
         analyzer_result = self._call_analyzer(
             query=query,
             profile=profile,
-            top_k=top_k
+            top_k=candidate_k
         )
 
         # -----------------------------------------------------
@@ -138,23 +208,22 @@ class JanSahayak:
             )
         )
 
-        final_results = []
-
-        # Citizen documents
-        user_documents = profile.get(
-            "documents",
-            []
-        )
-
-        if not isinstance(
-            user_documents,
-            list
-        ):
-            user_documents = []
+        if not recommendations:
+            return []
 
         # =====================================================
-        # PROCESS EACH RECOMMENDATION
+        # PREPARE STANDARDIZED CANDIDATES
         # =====================================================
+        #
+        # We first convert analyzer recommendations into the
+        # same structure used by the relevance filter.
+        #
+        # We deliberately do this BEFORE document checklist
+        # generation so document processing is only run for
+        # relevant schemes.
+        #
+
+        relevance_candidates = []
 
         for recommendation in recommendations:
 
@@ -211,8 +280,132 @@ class JanSahayak:
             if explanation is None:
                 explanation = ""
 
+            relevance_candidates.append(
+                {
+                    "scheme": scheme,
+                    "score": score,
+                    "eligibility": eligibility,
+                    "explanation": explanation
+                }
+            )
+
+        if not relevance_candidates:
+            return []
+
+        # =====================================================
+        # NEW: DOMAIN RELEVANCE FILTER / RERANKING
+        # =====================================================
+
+        relevant_results = (
+            self.relevance_filter.rerank(
+                query=query,
+                profile=profile,
+                results=relevance_candidates,
+                top_k=top_k
+            )
+        )
+
+        if not relevant_results:
+            return []
+
+        # =====================================================
+        # CITIZEN DOCUMENTS
+        # =====================================================
+
+        user_documents = profile.get(
+            "documents",
+            []
+        )
+
+        if not isinstance(
+            user_documents,
+            list
+        ):
+            user_documents = []
+
+        final_results = []
+
+        # =====================================================
+        # PROCESS ONLY RELEVANT RECOMMENDATIONS
+        # =====================================================
+
+        for recommendation in relevant_results:
+
+            if not isinstance(
+                recommendation,
+                dict
+            ):
+                continue
+
+            # -------------------------------------------------
+            # SCHEME
+            # -------------------------------------------------
+
+            scheme = recommendation.get(
+                "scheme",
+                {}
+            )
+
+            if not isinstance(
+                scheme,
+                dict
+            ):
+                continue
+
+            if not scheme:
+                continue
+
+            # -------------------------------------------------
+            # ELIGIBILITY
+            # -------------------------------------------------
+
+            eligibility = recommendation.get(
+                "eligibility",
+                {}
+            )
+
+            if not isinstance(
+                eligibility,
+                dict
+            ):
+                eligibility = {}
+
+            # -------------------------------------------------
+            # SCORE
+            # -------------------------------------------------
+
+            score = recommendation.get(
+                "score",
+                0.0
+            )
+
+            try:
+
+                score = float(
+                    score
+                )
+
+            except (
+                TypeError,
+                ValueError
+            ):
+
+                score = 0.0
+
+            # -------------------------------------------------
+            # EXPLANATION
+            # -------------------------------------------------
+
+            explanation = recommendation.get(
+                "explanation",
+                ""
+            )
+
+            if explanation is None:
+                explanation = ""
+
             # =================================================
-            # DOCUMENT CHECKLIST
+            # EXISTING DOCUMENT CHECKLIST
             # =================================================
 
             document_result = (
@@ -222,9 +415,18 @@ class JanSahayak:
                 )
             )
 
-            # -------------------------------------------------
+            # =================================================
             # FINAL FRONTEND RESULT
-            # -------------------------------------------------
+            # =================================================
+            #
+            # Keep exactly the same frontend structure:
+            #
+            # scheme
+            # score
+            # eligibility
+            # documents
+            # explanation
+            #
 
             final_result = {
 
@@ -248,9 +450,9 @@ class JanSahayak:
                 final_result
             )
 
-        # -----------------------------------------------------
-        # LIMIT RESULTS
-        # -----------------------------------------------------
+        # =====================================================
+        # FINAL LIMIT
+        # =====================================================
 
         return final_results[:top_k]
 
@@ -269,7 +471,7 @@ class JanSahayak:
         """
         Returns a complete AI response.
 
-        This method is useful later for FastAPI/frontend.
+        Useful for FastAPI/frontend and backwards compatibility.
         """
 
         if profile is None:
@@ -325,12 +527,11 @@ class JanSahayak:
         """
         Supports slightly different analyzer method signatures.
 
-        This prevents the document integration from breaking
-        your already-working analyzer.
+        This keeps the existing analyzer compatibility.
         """
 
         # -----------------------------------------------------
-        # Preferred signature
+        # PREFERRED SIGNATURE
         # -----------------------------------------------------
 
         try:
@@ -342,11 +543,10 @@ class JanSahayak:
             )
 
         except TypeError:
-
             pass
 
         # -----------------------------------------------------
-        # Older signature without top_k
+        # OLDER SIGNATURE WITHOUT TOP_K
         # -----------------------------------------------------
 
         try:
@@ -357,11 +557,10 @@ class JanSahayak:
             )
 
         except TypeError:
-
             pass
 
         # -----------------------------------------------------
-        # Possible user= alias
+        # POSSIBLE USER= ALIAS
         # -----------------------------------------------------
 
         try:
@@ -373,11 +572,10 @@ class JanSahayak:
             )
 
         except TypeError:
-
             pass
 
         # -----------------------------------------------------
-        # Last fallback
+        # LAST FALLBACK
         # -----------------------------------------------------
 
         return self.analyzer.analyze(
@@ -399,11 +597,10 @@ class JanSahayak:
         """
 
         if analyzer_result is None:
-
             return []
 
         # -----------------------------------------------------
-        # Analyzer directly returned a list
+        # ANALYZER DIRECTLY RETURNED A LIST
         # -----------------------------------------------------
 
         if isinstance(
@@ -414,7 +611,7 @@ class JanSahayak:
             return analyzer_result
 
         # -----------------------------------------------------
-        # Analyzer returned dictionary
+        # ANALYZER RETURNED DICTIONARY
         # -----------------------------------------------------
 
         if isinstance(
@@ -476,7 +673,7 @@ class JanSahayak:
             )
 
         # -----------------------------------------------------
-        # Recommendation itself may be the scheme
+        # RECOMMENDATION ITSELF MAY BE THE SCHEME
         # -----------------------------------------------------
 
         if (
@@ -580,6 +777,8 @@ def ask_jansahayak(
         profile=profile,
         top_k=top_k
     )
+
+
 # =============================================================
 # BACKWARD COMPATIBILITY
 # =============================================================
