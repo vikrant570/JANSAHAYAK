@@ -5,7 +5,7 @@ AI-powered civic assistant that recommends government schemes based on user quer
 ## Architecture
 
 ```
-jansahayak-frontend/  →  jansahayak-backend/  →  jansahayak-ai/
+jansahayak-frontend/  →  jansahayak-backend/  →  jansahayak-ai/ 
    Next.js :3000           Express :5000          FastAPI :8000
 ```
 
@@ -63,6 +63,12 @@ npm run dev
 # Terminal 3 — Frontend
 cd jansahayak-frontend
 npm run dev
+```
+
+## NOTE
+```
+You will need mongoDB database storage either locally or on your computer to be able to signIn
+and save messages and chats
 ```
 
 ## Project Structure
