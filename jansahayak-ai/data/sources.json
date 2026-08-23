@@ -1,0 +1,29 @@
+[
+  {
+    "id": "myscheme",
+    "name": "myScheme",
+    "base_url": "https://www.myscheme.gov.in/",
+    "type": "national_scheme_portal",
+    "authority": "Government of India",
+    "trust_level": 1,
+    "enabled": true
+  },
+  {
+    "id": "india-gov",
+    "name": "India.gov.in",
+    "base_url": "https://www.india.gov.in/my-government/schemes",
+    "type": "national_government_portal",
+    "authority": "Government of India",
+    "trust_level": 1,
+    "enabled": true
+  },
+  {
+    "id": "punjab-gov",
+    "name": "Punjab Government",
+    "base_url": "https://punjab.gov.in/",
+    "type": "state_government_portal",
+    "authority": "Government of Punjab",
+    "trust_level": 1,
+    "enabled": true
+  }
+]
