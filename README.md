@@ -76,5 +76,6 @@ JANSAHAYAK/
 
 ## Environment Variables
 ```
-All environment variables are metioned in src/env.d.ts (both backend and frontend) - and for AI engine they are in its individual Readme.md
+All environment variables are metioned in src/env.d.ts (both backend and frontend)
+and for AI engine they are in its individual Readme.md
 ```
