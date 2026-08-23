@@ -21,7 +21,7 @@ export default function PrivacyPolicyPage() {
                             This Privacy Policy explains how <strong>JanSahayak</strong> collects, uses, stores, and protects your information when you use our platform to discover and understand government schemes and benefits you may be eligible for.
                         </p>
                         <p>
-                            By using [APP NAME], you agree to the practices described in this policy.
+                            By using Jansahayak, you agree to the practices described in this policy.
                         </p>
                     </section>
 
@@ -142,7 +142,7 @@ export default function PrivacyPolicyPage() {
                             <li><span className="text-texts-dark">Grievance redressal — raise concerns about how your data is handled</span></li>
                         </ul>
                         <p>
-                            To exercise any of these rights, contact us at <a href="mailto:[SUPPORT EMAIL]" className="text-buttons hover:underline">[SUPPORT EMAIL]</a>.
+                            To exercise any of these rights, contact us at <a href="mailto:support.jansahayakai@gmail.com" className="text-buttons hover:underline">support.jansahayakai@gmail.com</a>.
                         </p>
                     </section>
 
@@ -166,8 +166,8 @@ export default function PrivacyPolicyPage() {
                             If you have questions, concerns, or requests regarding this Privacy Policy or your personal data, please contact us at:
                         </p>
                         <div className="space-y-2">
-                            <p><strong>Email:</strong> <a href="mailto:[SUPPORT EMAIL]" className="text-buttons hover:underline">[SUPPORT EMAIL]</a></p>
-                            <p><strong>Address:</strong> [YOUR ORGANIZATION ADDRESS, IF APPLICABLE]</p>
+                            <p><strong>Email:</strong> <a href="mailto:support.jansahayakai@gmail.com" className="text-buttons hover:underline">support.jansahayakai@gmail.com</a></p>
+                            <p><strong>Address:</strong> Jansahayak </p>
                         </div>
                     </section>
 
